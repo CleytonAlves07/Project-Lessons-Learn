@@ -1,7 +1,16 @@
 body {
     background-color: rgb(253, 251, 251);
+    font-family: Monospace, Helvetica, sans-serif;
 }
 #cabecalho {
     position: fixed;
     top: 0;
+}
+nav h1 {
+    border: 2px dotted red;
+    width: 500px;
+    position: relative;
+    text-align: center;
+    left: 100%;
+    margin: auto;
 }
