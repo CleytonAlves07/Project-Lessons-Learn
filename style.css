@@ -14,8 +14,7 @@ body {
 header {
     width: 100%;
     height: 100px;
-    background-color: rgba(0, 128, 128, 0.5);
-    /* background-color: rgba(31, 31, 31, 0.5); */
+    background-color: #0DBAC6;
 }
 nav h1 {
     width: 500px;
@@ -24,12 +23,31 @@ nav h1 {
     left: 100%;
     top: 20px;
     margin: auto;
+    font-style: italic;
 }
 section img {
-    border: 2px dotted red;
     border-radius: 30%;
     position: relative;
     left: 40%;
     top: 60px;
+}
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px 15px;
+    border: 1px solid rgba(0, 128, 128, 0.5);
+    border-radius: 10px;
+    color: #0DBAC6;
+    font-size: large;
+    font-weight: bold;
+    font-style: italic;
+    border: 2px dotted red;
+    margin: 100px 700px;
+}
+nav a:hover{
+    background-color: rgba(31, 31, 31, 0.1);
+    /* color: #00AEF9; */
+    width: 100px;
+    color: rgba(46, 139, 87, 0.7);
 }
 
